@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     color: white;
     text-align:center;
 }
@@ -10,3 +10,37 @@ h1 {
 .intro-text {
     color: grey;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } */
+
+  body {
+    background-color: #14233c;
+  }
+  
+  .container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    min-height: 90vh;
+  }
+  
+  .information {
+    text-align:center;
+    color:white;
+  }
+  
+  .picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+
+  .grey-text {
+    color: grey;
+  }
