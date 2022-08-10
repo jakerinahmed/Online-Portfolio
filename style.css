@@ -1,18 +1,22 @@
-body {
+/* body {
   background-color: #14233c;
   font-family: Helvetica,Arial,sans-serif;
+  color: white;
+} */
+
+.bg-color {
+  background-color: #14233c;
 }
 
-.container {
+.home-container {
   display: flex;
   align-items:center;
   justify-content: center;
-  min-height: 90vh;
+  min-height: 60vh;
 }
 
-.information {
+.social_media_links {
   text-align:center;
-  color:white;
 }
 
 .picture {
@@ -22,6 +26,16 @@ body {
   border-radius: 50%;
 }
 
-.grey-text {
-  color: grey;
+.white-text {
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.border {
+  border-radius: 0px 0px 10px 10px;
 }
