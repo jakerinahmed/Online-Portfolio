@@ -36,6 +36,12 @@ a {
 }
 
 
-.border {
+.border-main {
   border-radius: 0px 0px 10px 10px;
 }
+
+.border-content {
+  border-color: #14233c;
+  border-radius: 10px 10px 10px 10px;
+}
+
