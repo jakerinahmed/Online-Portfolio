@@ -40,8 +40,23 @@ a {
   border-radius: 0px 0px 10px 10px;
 }
 
+img {
+  border-radius: 10px 10px 10px 10px;
+}
+
 .border-content {
+  border-style: solid;
   border-color: #14233c;
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+
+.nav a:hover {
+  background-color: white;
+  color:#14233c;
+  border-style: solid;
+  border-color: transparent;
   border-radius: 10px 10px 10px 10px;
 }
 
