@@ -1,8 +1,6 @@
-/* body {
-  background-color: #14233c;
+body {
   font-family: Helvetica,Arial,sans-serif;
-  color: white;
-} */
+}
 
 .bg-color {
   background-color: #14233c;
@@ -60,3 +58,22 @@ img {
   border-radius: 10px 10px 10px 10px;
 }
 
+.navbar-main,
+.footer {
+    padding: 20px;
+}
+
+.navbar-main {
+  
+    overflow: hidden;
+    background-color: #14233c;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+
+body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
